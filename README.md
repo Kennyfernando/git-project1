@@ -125,3 +125,15 @@ copy the link from the github repository
 franc@Fernandez MINGW64 ~/darey.io/git-project (main)
 $ git remote add origin https://github.com/Kennyfernando/git-project1.git
 
+### Cloning a remote repository
+This is having a copy of the github pepo in your local drive 
+
+franc@Fernandez MINGW64 ~/darey.io/git-project (main)
+$ git clone https://github.com/Kennyfernando/git-project1.git
+Cloning into 'git-project1'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
