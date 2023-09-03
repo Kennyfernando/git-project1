@@ -120,7 +120,7 @@ Deleted branch project-trial (was c9d1883).
 
 ### Adding a remote repository to a local repository
 copy the link from the github repository
-![getting your repo url] (c:\User\franc\Downloads\Screenshot 2023-09-04 002137.jpg)
+![getting your repo url](c:\User\franc\Downloads\Screenshot 2023-09-04 002137.jpg)
 
 franc@Fernandez MINGW64 ~/darey.io/git-project (main)
 $ git remote add origin https://github.com/Kennyfernando/git-project1.git
