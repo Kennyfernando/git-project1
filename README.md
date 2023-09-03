@@ -9,7 +9,7 @@ franc@Fernandez MINGW64 ~/darey.io/git-project
 $ git init
 Initialized empty Git repository in C:/Users/franc/darey.io/git-project/.git
 
-## Making Your First Commit
+## Making My First Commit
 franc@Fernandez MINGW64 ~/darey.io/git-project (main)
 $ touch index.txt
 
@@ -30,3 +30,5 @@ $ git commit -m "added a new line"
 [main (root-commit) cafb75b] added a new line
  1 file changed, 1 insertion(+)
  create mode 100644 index.txt
+
+### Git Branching
