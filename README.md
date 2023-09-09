@@ -1,24 +1,13 @@
- # Initiializing Git Repository
- franc@Fernandez MINGW64 ~/darey.io
-$ mkdir git-project
+ ## Initiializing Git Repository
+ 'first step for git' Make sure you have installed gitbash or have any command command line tool. You create a folder and navigate into the folder then you can run the 'git init' to initialize git in your local computer
 
-franc@Fernandez MINGW64 ~/darey.io
-$ cd git-project
-
-franc@Fernandez MINGW64 ~/darey.io/git-project
-$ git init
-Initialized empty Git repository in C:/Users/franc/darey.io/git-project/.git
+ ![initialization](c:\User\franc\Downloads\initialize-git.JPG)
 
 ## Making My First Commit
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ touch index.txt
+Commit is more or less saving the changes you made to your files. Making a commiit takes a snapshot of the current state of your repository and saves a copy in the .git folder inside your working directory.
 
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ echo "i am getting to be a devops engr" > index.txt
+![Making-a-commit] (c:\User\franc\Download\commit.JPG)
 
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ cat index.txt
-i am getting to be a devops engr
 
 franc@Fernandez MINGW64 ~/darey.io/git-project (main)
 $ git add .
