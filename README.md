@@ -1,128 +1,45 @@
  ## Initiializing Git Repository
- 'first step for git' Make sure you have installed gitbash or have any command command line tool. You create a folder and navigate into the folder then you can run the 'git init' to initialize git in your local computer
+ **first step for git** Make sure you have installed gitbash or have any command command line tool. You create a folder and navigate into the folder then you can run the 'git init' to initialize git in your local computer
 
  ![initialization](c:\User\franc\Downloads\initialize-git.JPG)
 
 ## Making My First Commit
 Commit is more or less saving the changes you made to your files. Making a commiit takes a snapshot of the current state of your repository and saves a copy in the .git folder inside your working directory.
 
-![Making-a-commit] (c:\User\franc\Download\commit.JPG)
+![Making-a-commit](c:\Users\franc\Downloads\commit.JPG)
 
+### Git Branching
+Git branching helps to create a different copy(page) of your source code. It helps give team work with developers were they build there codes in a branch for testing and then merge the code into one branch
 
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ git add .
-warning: in the working copy of 'index.txt', LF will be replaced by CRLF the
-t time Git touches it
+![creating-and-switching-branch](C:\Users\franc\Downloads\branching.JPG)
 
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ git commit -m "added a new line"
-[main (root-commit) cafb75b] added a new line
- 1 file changed, 1 insertion(+)
- create mode 100644 index.txt
+# Listing your git branch
+![To-list-Branches](C:\Users\franc\Downloads\list-branches.JPG)
 
-## Git Branching
-### Learning and trying codes on branching in Git
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ git checkout -b project-trial
-Switched to a new branch 'project-trial'
+## Merging a Branch into another Branch
+![To-merge-branches](C:\Users\franc\Downloads\list-merging.JPG)
 
-franc@Fernandez MINGW64 ~/darey.io/git-project (project-trial)
-$ git branch
-  main
-* project-trial
+## Deleting a Branch
+![To-delete-Branches](C:\Users\franc\Downloads\Deleting-branch.JPG)
 
-franc@Fernandez MINGW64 ~/darey.io/git-project (project-trial)
-$ git switch main
-Switched to branch 'main'
+### Collaboration and Remote Repositories
+*Git* is a version control system that is used to solve problems like sharing source code and tracking changes to source code. Using git for collaboration is usually done among teams remotely. To make this happen we have to introduce github.[Github](https://www.github.com)
+github is a web based platform where git repositories are hosted. By hosting our local git repository on github, it becomes available in the public internet(it is posssible to create a private address too). Remote teams or anyone can now view, update and make changes to the same repository.
+first you can create an account on github
+![Creating-a-repo-in-github](C:\Users\franc\Downloads\github-repo.JPG)
 
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ ls
-index.txt
+### Pushing your git Repository to your Remote github Repository.
+You copy your repository link from your github and go to your gitbash command line and run the git remote add command with the link
+![adding-alocal-repo-in-github](C:\Users\franc\Downloads\remote.JPG)
 
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ cat index.txt
-i am getting to be a devops engr
+![repo-link](C:\Users\franc\Downloads\link.JPG)
 
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ vi index.txt
+After you have commited your changes to the local repo, you push the content to the remote repo using the command below
+N//B The word origin refers to your remote repo link, it can be any word you choose.
+![repo-link](C:\Users\franc\Downloads\content.JPG)
 
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ git status
-On branch main
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   index.txt
+### Cloning Remote Git Repository 
+After adding a remote git repository and pushed your local repository to it. You can have your team have access to it and make changes to the code and create new branch.
+Git clone command helps us make a copy of remote repository in our local machine. See it as a git tool for downloading remote repository into our local machine.
 
-no changes added to commit (use "git add" and/or "git commit -a")
-
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ git add .
-warning: in the working copy of 'index.txt', LF will be replaced by CRLF the
-t
-
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ git commit -m "added a second line"
-[main c9d1883] added a second line
- 1 file changed, 1 insertion(+)
-
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ git branch
-* main
-  project-trial
-
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ git checkout project-trial
-Switched to branch 'project-trial'
-
-franc@Fernandez MINGW64 ~/darey.io/git-project (project-trial)
-$ ls
-index.txt
-
-franc@Fernandez MINGW64 ~/darey.io/git-project (project-trial)
-$ cat index.txt
-i am getting to be a devops engr
-
-franc@Fernandez MINGW64 ~/darey.io/git-project (project-trial)
-$ git merge main
-Updating cafb75b..c9d1883
-Fast-forward
- index.txt | 1 +
- 1 file changed, 1 insertion(+)
-
-franc@Fernandez MINGW64 ~/darey.io/git-project (project-trial)
-$ cat index.txt
-i am getting to be a devops engr
-Am also adding a second line.
-
-franc@Fernandez MINGW64 ~/darey.io/git-project (project-trial)
-$ git checkout main
-Switched to branch 'main'
-
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ git branch -d project-trial
-Deleted branch project-trial (was c9d1883).
-
-# Collaboration And Remote Repositories
-1. create a github account
-2. create a new repository
-
-### Adding a remote repository to a local repository
-copy the link from the github repository
-![getting your repo url](c:\User\franc\Downloads\Screenshot 2023-09-04 002137.jpg)
-
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ git remote add origin https://github.com/Kennyfernando/git-project1.git
-
-### Cloning a remote repository
-This is having a copy of the github pepo in your local drive 
-
-franc@Fernandez MINGW64 ~/darey.io/git-project (main)
-$ git clone https://github.com/Kennyfernando/git-project1.git
-Cloning into 'git-project1'...
-remote: Enumerating objects: 6, done.
-remote: Counting objects: 100% (6/6), done.
-remote: Compressing objects: 100% (3/3), done.
-remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
-Receiving objects: 100% (6/6), done.
-
+![Cloning](C:\Users\franc\Downloads\clone.JPG)
