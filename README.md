@@ -32,7 +32,7 @@ first you can create an account on github
 You copy your repository link from your github and go to your gitbash command line and run the git remote add command with the link
 ![adding-alocal-repo-in-github](C:\Users\franc\darey.io\screenshorts\remote.JPG)
 
-![repo-link](C:\Users\franc\darey.io\screenshorts\link.JPG)
+![repo-link](C:\Users\franc\darey.io\screenshorts\Screenshot 2023-09-04 002137.jpg)
 
 After you have commited your changes to the local repo, you push the content to the remote repo using the command below
 N//B The word origin refers to your remote repo link, it can be any word you choose.
