@@ -42,4 +42,4 @@ N//B The word origin refers to your remote repo link, it can be any word you cho
 After adding a remote git repository and pushed your local repository to it. You can have your team have access to it and make changes to the code and create new branch.
 Git clone command helps us make a copy of remote repository in our local machine. See it as a git tool for downloading remote repository into our local machine.
 
-![Cloning](C:\Users\franc\darey.io\screenshorts\clone.JPG)cd ..
+![Cloning](C:\Users\franc\darey.io\screenshorts\clone.JPG)
