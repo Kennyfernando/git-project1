@@ -17,7 +17,7 @@ Git branching helps to create a different copy(page) of your source code. It hel
 ![To-list-Branches](screenshorts/list-branches.JPG)
 
 ## Merging a Branch into another Branch
-![To-merge-branches](screenshorts/list-merging.jpg)
+![To-merge-branches](screenshorts/merging.jpg)
 
 ## Deleting a Branch
 ![To-delete-Branches](screenshorts/Deleting-branch.JPG)
