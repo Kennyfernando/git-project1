@@ -17,7 +17,7 @@ Git branching helps to create a different copy(page) of your source code. It hel
 ![To-list-Branches](screenshorts/list-branches.JPG)
 
 ## Merging a Branch into another Branch
-![To-merge-branches](screenshorts/list-merging.JPG)
+![To-merge-branches](screenshorts/list-merging.jpg)
 
 ## Deleting a Branch
 ![To-delete-Branches](screenshorts/Deleting-branch.JPG)
@@ -29,14 +29,15 @@ first you can create an account on github
 ![Creating-a-repo-in-github](screenshorts/github-repo.JPG)
 
 ### Pushing your git Repository to your Remote github Repository.
-You copy your repository link from your github and go to your gitbash command line and run the git remote add command with the link
+You copy your repository link from your github and go to your gitbash command line and run the git remote add command with the link. 
+![repo-link](screenshorts/link.JPG)
+
 ![adding-alocal-repo-in-github](screenshorts/remote.JPG)
 
-![repo-link](screenshorts/link.JPG)
 
 After you have commited your changes to the local repo, you push the content to the remote repo using the command below
 N//B The word origin refers to your remote repo link, it can be any word you choose.
-![repo-link](screenshorts/content.JPG)
+![repo-link](screenshorts/content.jpg)
 
 ### Cloning Remote Git Repository 
 After adding a remote git repository and pushed your local repository to it. You can have your team have access to it and make changes to the code and create new branch.
