@@ -1,7 +1,8 @@
  ## Initiializing Git Repository
  **first step for git** Make sure you have installed gitbash or have any command command line tool. You create a folder and navigate into the folder then you can run the 'git init' to initialize git in your local computer
 
- ![initialization](C:\Users\franc\darey.io\screenshorts\initialize-git.JPG)
+ ![initialization](C:\Users\franc\darey.io\screenshorts\initialize-git.JPG) 
+ ![initialization](initialize-git.JPG)
 
 ## Making My First Commit
 Commit is more or less saving the changes you made to your files. Making a commiit takes a snapshot of the current state of your repository and saves a copy in the .git folder inside your working directory.
